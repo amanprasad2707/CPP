@@ -8,9 +8,9 @@ int ans = 0;
 int pow = 1;
 while(num > 0){
   int remainder = num % 2;
-  num /= 2;
   ans += pow * remainder;
   pow *= 10;
+  num /= 2;
 }
 return ans;
 }
@@ -28,6 +28,6 @@ int binaryToDecimal(int num){
 }
 
 int main(){
-cout << decimalToBinary(143) <<endl;
+cout << decimalToBinary(65) <<endl;
 cout << binaryToDecimal(10001111) <<endl;
 }
