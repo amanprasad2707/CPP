@@ -23,8 +23,7 @@ int main(){
       cout << j << " ";
     }
     // nums2
-    for (int j = i; j >=1; j--)
-    {
+    for (int j = i; j >=1; j--){
       cout << j << " ";
     }
     
