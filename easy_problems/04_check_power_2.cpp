@@ -1,4 +1,4 @@
-
+// if number of set bits is one then it is the power of 2
 #include <iostream>
 using namespace std;
 
