@@ -1,0 +1,13 @@
+Static Memory Allocation:
+When: Happens at compile time.
+Where: Typically in the stack segment.
+Usage: For variables that are defined with a fixed size (e.g., local variables, arrays with a fixed size).
+Lifetime: Their size and memory location are fixed throughout the program's execution.
+************************************************************************************************
+
+Dynamic Memory Allocation:
+When: Happens at runtime.
+Where: In the heap segment.
+Usage: For variables that need to be allocated memory at runtime (e.g., when using malloc() in C or new in C++).
+Lifetime: You can allocate and deallocate memory manually, allowing more flexibility. The programmer is responsible for releasing the memory (with free() or delete).
+If you're using higher-level languages (e.g., JavaScript or Python), memory management is typically handled automatically by the language’s garbage collector.
